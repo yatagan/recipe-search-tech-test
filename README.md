@@ -31,7 +31,7 @@ We have left the level of sophistication up to you, we find it is easier to make
 -	Performance / Resource utilisation is another area where you can apply more sophistication to the solution.
 -	Degree to which the solution is generalized without loss of clarity is another.
 
-Because we are trying to appraise your programming ability and initiative, be reasonable in your use of libraries or existing search tools – In this test we really do want you to reinvent the wheel as far as the core problem is concerned! So just using `grep` will not win you many points. Feel free to use established techniques and algorithms, in fact this is encouraged.
+Because we are trying to appraise your programming ability and initiative, be reasonable in your use of libraries or existing search tools – In this test we really *do* want you to reinvent the wheel as far as the core problem is concerned! So just using `grep` will not win you many points. Feel free to use established techniques and algorithms, in fact this is encouraged.
 
 You can spend as long or as little as you would like on the test, it does not have to be perfect! I think anywhere from 2-6 hours would be appropriate.
 
