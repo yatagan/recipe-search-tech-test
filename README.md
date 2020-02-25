@@ -15,7 +15,7 @@ Our requirements have been listed by a key business stakeholder:
 ## Essential requirements:
 
 -	Search results should be relevant, e.g. a search for broccoli stilton soup should return at least broccoli stilton soup.
--	Searches should complete quickly so users are not kept waiting – this tool needs to serve many users so lower latency will mean we can serve more concurrent searches.
+-	Searches should complete quickly so users are not kept waiting – this tool needs to serve many users so lower latency will mean we can serve more concurrent searches - ideally searches will take < 10ms.
 
 Ideally the results will be sorted so that the most relevant result is first in the result list.
 
