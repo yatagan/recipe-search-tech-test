@@ -6,7 +6,7 @@ Example text files: [recipes.zip](https://media.riverford.co.uk/downloads/hiring
 
 We would like a program that can provide a search function over these files, each search returning around 10 relevant recipes if possible.
 
-The text files are of differing sizes, and are encoded as utf-8. New text files are coming in all the time, so we should make few assumptions.
+The text files are of differing sizes, and are encoded as utf-8. New text files are coming in all the time, so we should not assume a static set of recipes.
 
 The name of each file is considered the id of the recipe.
 
