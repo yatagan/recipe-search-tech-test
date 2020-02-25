@@ -25,7 +25,7 @@ The program can be a command line app, a set of functions for REPL usage or a we
 
 The goal of this test is to appraise your programming ability, that is to say – how simple, readable, efficient and correct your solution is. In addition good comments, good function/interface design and good naming will be looked for.
 
-We have left the level of sophistication up to you, we find it is easier to make a naïve solution obviously simple, but as things get more sophisticated – then keeping it simple is more challenging. We are interested in how you can do ‘hard’ things in a simple way.
+We have left the level of sophistication up to you, we find it is easier to make a naïve solution obviously simple, but as things get more sophisticated, keeping it simple is more challenging. We are interested in how you can do ‘hard’ things in a simple way.
 
 -	Returning relevant results is fairly open ended and subjective, so there is a lot of room for increasing sophistication. 
 -	Performance / Resource utilisation is another area where you can apply more sophistication to the solution.
