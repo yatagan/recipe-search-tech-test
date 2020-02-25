@@ -21,7 +21,7 @@ Ideally the results will be sorted so that the most relevant result is first in 
 
 ## Technical Notes
 
-The program can be a command line app, a set of functions for REPL usage or a web app.
+The program can be a command line app, a set of functions for REPL usage or a web app. It can be written in any language you want.
 
 The goal of this test is to appraise your programming ability, that is to say – how simple, readable, efficient and correct your solution is. In addition good comments, good function/interface design and good naming will be looked for.
 
