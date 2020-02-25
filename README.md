@@ -4,7 +4,7 @@ We have to give users the ability to search for recipes. We have some text files
 
 Example text files: [recipes.zip](https://media.riverford.co.uk/downloads/hiring/sse/recipes.zip)
 
-We would like a program that can provide a search function over these files, each search returning around 10 relevant recipes if possible.
+We would like a program that can provide a search function over these files, each search returning a small number (e.g around 1-10) relevant recipes if possible.
 
 The text files are of differing sizes, and are encoded as utf-8. New text files are coming in all the time, so we should not assume a static set of recipes.
 
