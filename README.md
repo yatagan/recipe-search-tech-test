@@ -17,13 +17,13 @@ Our requirements have been listed by a key business stakeholder:
 -	Search results should be relevant, e.g. a search for broccoli stilton soup should return at least broccoli stilton soup.
 -	Ideally the results will be sorted so that the most relevant result is first in the result list.
 -	Searches should complete quickly so users are not kept waiting – this tool needs to serve many users so lower latency will mean we can serve more concurrent searches - ideally searches will take < 10ms.
--	Documentation that describes how to set up and run your solution.
+-	Documentation that describes how to set up and run your solution. The easier it is to run your solution (e.g. without needing to install bulky IDEs to build it), the better.
 
-**A test suite is optional.** We are most interested in evaluating the quality of your solution to the search problem, not in the simpler task of writing tests for the solution.
+**A test suite is optional.** You should of course feel free to write tests if they help you think, but please note that we are most interested in evaluating the quality of your solution to the search problem, not in the simpler task of writing tests for the solution.
 
 ## Technical Notes
 
-**Please use whichever language you are most comfortable in.** We want to see what your best work looks like, without needing to factor in a lack of familiarity with the language in our evaluation. The program can be a command line app, a set of functions for REPL usage (or equivalent for your language) or a web app. 
+**Please use whichever language you are most comfortable in.** We want to see what your best work looks like, without needing to factor in a lack of familiarity with the language in our evaluation. We'll assume you chose the tools you know best. The program can be a command line app, a set of functions for REPL usage (or equivalent for your language) or a web app. 
 
 The goal of this test is to appraise your programming ability, that is to say – how simple, readable, efficient and correct your solution is. In addition good comments, good function/interface design and good naming will be looked for.
 
