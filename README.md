@@ -15,13 +15,15 @@ Our requirements have been listed by a key business stakeholder:
 ## Essential requirements:
 
 -	Search results should be relevant, e.g. a search for broccoli stilton soup should return at least broccoli stilton soup.
+-	Ideally the results will be sorted so that the most relevant result is first in the result list.
 -	Searches should complete quickly so users are not kept waiting – this tool needs to serve many users so lower latency will mean we can serve more concurrent searches - ideally searches will take < 10ms.
+-	Documentation that describes how to set up and run your solution.
 
-Ideally the results will be sorted so that the most relevant result is first in the result list.
+**A test suite is optional.** We are most interested in evaluating the quality of your solution to the search problem, not in the simpler task of writing tests for the solution.
 
 ## Technical Notes
 
-The program can be a command line app, a set of functions for REPL usage or a web app. It can be written in any language you want.
+**Please use whichever language you are most comfortable in.** We want to see what your best work looks like, without needing to factor in a lack of familiarity with the language in our evaluation. The program can be a command line app, a set of functions for REPL usage (or equivalent for your language) or a web app. 
 
 The goal of this test is to appraise your programming ability, that is to say – how simple, readable, efficient and correct your solution is. In addition good comments, good function/interface design and good naming will be looked for.
 
@@ -31,10 +33,10 @@ We have left the level of sophistication up to you, we find it is easier to make
 -	Performance / Resource utilisation is another area where you can apply more sophistication to the solution.
 -	Degree to which the solution is generalized without loss of clarity is another.
 
-Because we are trying to appraise your programming ability and initiative, be reasonable in your use of libraries or existing search tools – In this test we really *do* want you to reinvent the wheel as far as the core problem is concerned! So just using `grep` will not win you many points. Feel free to use established techniques and algorithms, in fact this is encouraged.
+Because we are trying to appraise your programming ability and initiative, be reasonable in your use of libraries or existing search tools. In this test we really *do* want you to reinvent the wheel as far as the core problem is concerned! So just using `grep` will not win you many points. Feel free to use established techniques and algorithms, in fact this is encouraged.
 
 You can spend as long or as little as you would like on the test, it does not have to be perfect! I think anywhere from 2-6 hours would be appropriate.
 
-Please host the program source on github.com (e.g by forking this repo), gitlab.com or provide a link to a zip file on google drive. Let me know you’ve done it by sending a link to bradbollenbach@riverford.co.uk
+Please host the program source on github.com (e.g by forking this repo), gitlab.com or provide a link to a zip file on google drive. Let me know you’ve done it by sending a link to bradbollenbach@riverford.co.uk.
 
 Good luck!
