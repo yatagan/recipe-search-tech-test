@@ -37,6 +37,6 @@ Because we are trying to appraise your programming ability and initiative, be re
 
 You can spend as long or as little as you would like on the test, it does not have to be perfect! I think anywhere from 2-6 hours would be appropriate.
 
-Please host the program source on github.com (e.g by forking this repo), gitlab.com or provide a link to a zip file on google drive. Let me know you’ve done it by sending a link to danielstone@riverford.co.uk.
+Please host the program source on github.com (e.g by forking this repo), gitlab.com or provide a link to a zip file on google drive, and reply to the person who originally sent you the test to provide them the relevant links.
 
 Good luck!
