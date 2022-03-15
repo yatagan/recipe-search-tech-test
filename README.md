@@ -1,3 +1,7 @@
+## Usage
+
+    $ lein run
+
 ## Recipe search
 
 We have to give users the ability to search for recipes. We have some text files containing recipe descriptions written in English. We would like to be able to search over the set of these text files to find recipes given at a minimum a single word e.g. `tomato`.
