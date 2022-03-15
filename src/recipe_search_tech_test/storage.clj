@@ -29,5 +29,3 @@
   (->> (recipes-from-resources)
        (read-recipes)
        (take 10)))
-
-

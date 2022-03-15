@@ -2,6 +2,25 @@
 
     $ lein run
 
+    Loading recipes..
+    Indexing recipes..
+    "Elapsed time: 2478.454092 msecs"
+    Ready, please enter a query:
+    query> broccoli stilton soup
+    "Elapsed time: 6.391031 msecs"
+    1: broccoli soup with stilton
+    2: broccoli bulghur stilton grapes
+    3: cauliflower stilton soup
+    4: broccoli soup with gorgonzola
+    5: curried broccoli quinoa
+    6: chestnut chorizo brussels sprout soup
+    7: broccoli mustard dill tart
+    8: toasted broccoli with sesame garlic soy
+    9: purple sprouting broccoli bean and pasta
+    10: broccoli bean pasta soup
+    query> 
+
+
 ## Recipe search
 
 We have to give users the ability to search for recipes. We have some text files containing recipe descriptions written in English. We would like to be able to search over the set of these text files to find recipes given at a minimum a single word e.g. `tomato`.
