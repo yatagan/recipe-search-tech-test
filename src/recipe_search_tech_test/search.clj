@@ -31,18 +31,18 @@
    ```
    User should pass the same `:hash-fn` she used for indexing."
   [query index & {hash-fn :hash-fn :or {hash-fn default-hash-fn}}]
-  (let [key-word (->> query
-                      (split-cleanup-text)
-                      (map hash-fn))]
-    (->> (select-keys index key-word)
-         (vals)
-         (reduce #(merge-with * %1 %2) {})
-         (sort-by-score))))
+  (->> query
+       (split-cleanup-text)
+       (map hash-fn)
+       (select-keys index)
+       (vals)
+       (reduce #(merge-with * %1 %2) {})
+       (sort-by-score)))
 
-(defn- index-document [hash-fn name words]
+(defn- index-document [hash-fn doc-id words]
   (reduce
    (fn [acc word]
-     (update-in acc [(hash-fn word) name] (fnil inc 0)))
+     (update-in acc [(hash-fn word) doc-id] (fnil inc 0)))
    {}
    words))
 
