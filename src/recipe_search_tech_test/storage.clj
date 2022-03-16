@@ -2,8 +2,8 @@
   (:require [clojure.java.io :as io]
             [clojure.string :as string]))
 
-(defn recipes-from-resources []
-  (->> "recipes/"
+(defn files-from-resources [path]
+  (->> path
        (io/resource)
        (io/file)
        (file-seq)
@@ -18,5 +18,7 @@
 
 (defn load-recipes [files]
   (for [file files]
-    [(-> file (.getName) (filename-to-recipename))
+    [(-> file
+         (.getName)
+         (filename-to-recipename))
      (slurp file)]))
