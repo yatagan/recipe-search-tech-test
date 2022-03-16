@@ -4,21 +4,23 @@
 
     Loading recipes..
     Indexing recipes..
-    "Elapsed time: 2478.454092 msecs"
+    "Elapsed time: 2853.770111 msecs"
     Ready, please enter a query:
-    query> broccoli stilton soup
-    "Elapsed time: 6.391031 msecs"
-    1: broccoli soup with stilton
-    2: broccoli bulghur stilton grapes
-    3: cauliflower stilton soup
-    4: broccoli soup with gorgonzola
-    5: curried broccoli quinoa
-    6: chestnut chorizo brussels sprout soup
-    7: broccoli mustard dill tart
-    8: toasted broccoli with sesame garlic soy
-    9: purple sprouting broccoli bean and pasta
-    10: broccoli bean pasta soup
-    query> 
+    query> brokkolli stelton sup
+    "Elapsed time: 5.265408 msecs"
+    score   recipe
+    --------------
+    36      broccoli soup with stilton
+    30      broccoli bulghur stilton grapes
+    18      cauliflower stilton soup
+    16      curried broccoli quinoa
+    12      chestnut chorizo brussels sprout soup
+    10      purple sprouting broccoli bean and pasta
+    9       sausage celeriac barley sprouts
+    8       lettuce soup
+    7       broccoli cooked in red wine
+    6       penne with purple sprouting broccoli
+    query>
 
 
 ## Recipe search

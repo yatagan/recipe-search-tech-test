@@ -1,17 +1,6 @@
 (ns recipe-search-tech-test.storage
-  (:require [clojure.java.io :as io]))
-
-;; (defn- get-resource-folder-files [folder]
-;;   "To make it work from uberjar"
-;;   (let [loader (-> (Thread/currentThread)
-;;                    (.getContextClassLoader))
-;;         url (.getResource loader folder)
-;;         path (.getPath url)]
-;;     (-> path
-;;         (io/file)
-;;         (file-seq))))
-;;         ;; (.listFiles)
-;;         ;; (seq))))
+  (:require [clojure.java.io :as io]
+            [clojure.string :as string]))
 
 (defn recipes-from-resources []
   (->> "recipes/"
@@ -20,12 +9,14 @@
        (file-seq)
        (filter #(.isFile %))))
 
-(defn read-recipes [files]
-  (for [file files]
-    [(.getName file)
-     (slurp file)]))
+(defn- filename-to-recipename [filename]
+  (as-> filename $
+    (string/split $ #"\.")
+    (first $)
+    (string/split $ #"-")
+    (string/join " " $)))
 
-(comment
-  (->> (recipes-from-resources)
-       (read-recipes)
-       (take 10)))
+(defn load-recipes [files]
+  (for [file files]
+    [(-> file (.getName) (filename-to-recipename))
+     (slurp file)]))
